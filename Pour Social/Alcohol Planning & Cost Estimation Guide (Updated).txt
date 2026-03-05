@@ -1,0 +1,161 @@
+
+---
+
+# POUR SOCIAL
+
+## Alcohol Planning & Cost Estimation Guide (Updated)
+
+### Standard Planning Rule: **14 Drinks Per Bottle**
+
+---
+
+## 1) Standard Pour & Bottle Yield (Your Safe Rule)
+
+* Standard cocktail liquor pour: **1.5 oz**
+* 750 mL bottle (“a fifth”): **25.36 oz**
+* Theoretical yield: **~16.9 drinks**
+* **Pour Social planning yield (safe): *14 drinks per bottle***
+
+Why 14?
+
+* spillage, overpours, heavy-hand guests, recipe variance, ice melt dilution mistakes, etc.
+
+---
+
+## 2) Updated Cost-Per-Drink Math
+
+### Formula
+
+* **Cost per drink = Bottle Price ÷ 14**
+
+---
+
+# 3) Average Bottle Price → Cost Per Drink (Using 14 Drinks/Bottle)
+
+These are **mid-tier event-common brands** (not bottom shelf, not luxury-only).
+
+---
+
+## Vodka
+
+| Brand      | Avg Bottle Price | Drinks/Bottle | Cost per Drink |
+| ---------- | ---------------: | ------------: | -------------: |
+| Tito’s     |              $21 |            14 |      **$1.50** |
+| Absolut    |              $20 |            14 |      **$1.43** |
+| Ketel One  |              $24 |            14 |      **$1.71** |
+| Grey Goose |              $30 |            14 |      **$2.14** |
+
+**Event vodka average (from these brands): ~ $1.70 / drink**
+
+---
+
+## Tequila
+
+| Brand                   | Avg Bottle Price | Drinks/Bottle | Cost per Drink |
+| ----------------------- | ---------------: | ------------: | -------------: |
+| Jose Cuervo Tradicional |              $22 |            14 |      **$1.57** |
+| Espolon                 |              $26 |            14 |      **$1.86** |
+| Patron Silver           |              $50 |            14 |      **$3.57** |
+| Don Julio Blanco        |              $55 |            14 |      **$3.93** |
+
+**Event tequila average: ~ $2.73 / drink**
+*(Tequila gets expensive fast if clients choose Patron/Don Julio.)*
+
+---
+
+## Rum
+
+| Brand          | Avg Bottle Price | Drinks/Bottle | Cost per Drink |
+| -------------- | ---------------: | ------------: | -------------: |
+| Bacardi        |              $16 |            14 |      **$1.14** |
+| Captain Morgan |              $18 |            14 |      **$1.29** |
+| Malibu         |              $20 |            14 |      **$1.43** |
+| Mount Gay      |              $25 |            14 |      **$1.79** |
+
+**Event rum average: ~ $1.41 / drink**
+
+---
+
+## Gin
+
+| Brand           | Avg Bottle Price | Drinks/Bottle | Cost per Drink |
+| --------------- | ---------------: | ------------: | -------------: |
+| Beefeater       |              $20 |            14 |      **$1.43** |
+| Tanqueray       |              $24 |            14 |      **$1.71** |
+| Bombay Sapphire |              $26 |            14 |      **$1.86** |
+| Hendrick’s      |              $40 |            14 |      **$2.86** |
+
+**Event gin average: ~ $1.96 / drink**
+
+---
+
+## Whiskey / Bourbon
+
+| Brand            | Avg Bottle Price | Drinks/Bottle | Cost per Drink |
+| ---------------- | ---------------: | ------------: | -------------: |
+| Jack Daniels     |              $23 |            14 |      **$1.64** |
+| Jameson          |              $28 |            14 |      **$2.00** |
+| Maker’s Mark     |              $30 |            14 |      **$2.14** |
+| Woodford Reserve |              $38 |            14 |      **$2.71** |
+
+**Event whiskey average: ~ $2.12 / drink**
+
+---
+
+# 4) Mixed-Bar “Realistic Average” Cost Per Drink (Updated)
+
+Using the averages above across liquor categories:
+
+* **Average liquor cost per drink (mixed bar): ≈ $1.98**
+
+---
+
+# 5) Mixers + Garnish Cost (Same as before)
+
+Typical per drink:
+
+* Mixers (soda/juice/syrups): **$0.30–$0.50**
+* Garnish (lime/lemon/cherries): **$0.10–$0.20**
+
+A clean planning midpoint:
+
+* **Mixers + garnish average: ≈ $0.50 / drink**
+
+---
+
+# 6) Total Estimated Cost Per Cocktail (Client-Purchased)
+
+* Liquor: **$1.98**
+* Mixers + garnish: **$0.50**
+
+✅ **Total average drink cost: ≈ $2.48 / cocktail**
+
+*(This is a planning number for shopping lists — not what venues charge.)*
+
+---
+
+# 7) Updated Event Examples (2 drinks per guest)
+
+### Key formulas
+
+* **Total drinks = Guests × 2**
+* **Bottles needed = ceil(Total drinks ÷ 14)**
+
+| Guests | Total Drinks | Bottles Needed | Liquor Cost Only (@$1.98/drink) | Total Drink Cost (@$2.48/drink) |
+| -----: | -----------: | -------------: | ------------------------------: | ------------------------------: |
+|     50 |          100 |          **8** |                        **$198** |                        **$248** |
+|    100 |          200 |         **15** |                        **$396** |                        **$496** |
+|    150 |          300 |         **22** |                        **$594** |                        **$744** |
+|    200 |          400 |         **29** |                        **$792** |                        **$992** |
+
+**Interpretation for clients (simple):**
+“For 100 guests at ~2 drinks each, expect roughly **15 bottles total** and around **$400 in liquor**, or about **$500 including mixers/garnishes**.”
+
+---
+
+# 8) Pour Social Client Message (Clean & Trust-Building)
+
+**“We plan using 14 drinks per 750 mL bottle to protect you from overpours and waste. That means you buy a little smarter and you don’t run out.”**
+
+---
+
