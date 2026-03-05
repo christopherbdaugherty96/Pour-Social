@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pour Social | Mobile Bartending</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">Pour Social</a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#menus">Drink Menus</a>
+        <a href="#pricing">Pricing Tool</a>
+        <a href="#alcohol">Alcohol Calculator</a>
+        <a href="#planner">Planner</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#book">Book</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-sm" href="#book">Request Quote</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Mobile Bartending • Weddings • Corporate • Private Events</p>
+        <h1>Elevating Events, One Pour at a Time</h1>
+        <p>Professional bartending, handcrafted cocktails, and unforgettable hospitality with a polished, stress-free setup.</p>
+        <div class="actions">
+          <a href="#book" class="btn">Book Your Event</a>
+          <a href="#menus" class="btn btn-ghost">View Drink Menus</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container features" id="services">
+      <h2>Flashy Looks. Smooth Execution.</h2>
+      <div class="card-grid">
+        <article class="card hover-rise">
+          <h3>Professional Bartending</h3>
+          <p>Experienced bartenders deliver polished service, efficient execution, and guest-first hospitality.</p>
+        </article>
+        <article class="card hover-rise">
+          <h3>Custom Cocktail Menus</h3>
+          <p>Signature cocktail options tailored to your event style, season, and guest preferences.</p>
+        </article>
+        <article class="card hover-rise">
+          <h3>Stress-Free Planning</h3>
+          <p>We handle mixers, garnishes, tools, setup, and smooth bar operations so you can enjoy the event.</p>
+        </article>
+      </div>
+
+      <div class="service-columns">
+        <article>
+          <h4>Private Events</h4>
+          <p>Birthday parties, anniversaries, and celebrations with custom drinks and streamlined bar flow.</p>
+        </article>
+        <article>
+          <h4>Weddings</h4>
+          <p>Elegant signature cocktails, wine and beer coordination, and high-touch reception service.</p>
+        </article>
+        <article>
+          <h4>Corporate Events</h4>
+          <p>Reliable service for galas, networking events, and company celebrations at any scale.</p>
+        </article>
+        <article>
+          <h4>Parties & Celebrations</h4>
+          <p>From backyard gatherings to formal events, we help create a relaxed and memorable atmosphere.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="menus">
+      <div class="section-head">
+        <h2>Drink Menus</h2>
+        <p>Popular menu directions curated from Pour Social's event playbooks.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card">
+          <h3>Wedding Signature</h3>
+          <ul>
+            <li>Lavender Lemon Drop</li><li>Peach Bellini Spritz</li><li>Smoked Old Fashioned</li><li>Garden Gin Spritz</li>
+            <li>Rosé Sangria</li><li>Citrus Paloma</li><li>French 75</li><li>Classic Margarita</li>
+          </ul>
+        </article>
+        <article class="menu-card">
+          <h3>Classic Event</h3>
+          <ul>
+            <li>Margarita</li><li>Old Fashioned</li><li>Moscow Mule</li><li>Cosmopolitan</li>
+            <li>Rum Punch</li><li>Whiskey Sour</li><li>Vodka Soda</li><li>Paloma</li>
+          </ul>
+        </article>
+        <article class="menu-card">
+          <h3>Summer Outdoor</h3>
+          <ul>
+            <li>Batch Margarita</li><li>Strawberry Basil Smash</li><li>Watermelon Mule</li><li>Classic Paloma</li>
+            <li>Coconut Mojito</li><li>Pineapple Rum Punch</li><li>Cucumber Gin Cooler</li><li>Vodka Soda</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="container tools" id="pricing">
+      <div class="section-head">
+        <h2>Interactive Event Pricing Dial</h2>
+        <p>Quick estimate for service range, bartender count, and alcohol planning.</p>
+      </div>
+      <div class="tool-grid">
+        <form class="tool-panel" id="pricing-form">
+          <label>Guest Count
+            <input type="range" id="guestCount" min="25" max="200" step="25" value="100" />
+            <span id="guestValue">100</span>
+          </label>
+          <label>Drink Tier
+            <select id="drinkTier">
+              <option value="basic">Basic</option>
+              <option value="signature" selected>Signature</option>
+              <option value="premium">Premium</option>
+            </select>
+          </label>
+          <label>Service Hours
+            <input type="range" id="serviceHours" min="3" max="6" value="4" />
+            <span id="hoursValue">4</span>
+          </label>
+        </form>
+        <aside class="tool-output" id="pricingOutput"></aside>
+      </div>
+    </section>
+
+    <section class="container tools" id="alcohol">
+      <div class="section-head">
+        <h2>Alcohol Shopping Calculator</h2>
+        <p>Estimate alcohol needs while Pour Social handles mixers, juices, syrups, and garnishes.</p>
+      </div>
+      <div class="tool-grid">
+        <form class="tool-panel" id="alcohol-form">
+          <label>Guests
+            <input type="number" id="alcGuests" min="25" step="5" value="100" />
+          </label>
+          <label>Event Hours
+            <input type="number" id="alcHours" min="3" max="8" value="4" />
+          </label>
+          <label>Drink Style
+            <select id="alcStyle">
+              <option value="beerWine">Beer & Wine Only</option>
+              <option value="balanced" selected>Cocktails + Beer/Wine</option>
+              <option value="cocktail">Cocktails Focused</option>
+            </select>
+          </label>
+          <button class="btn" type="submit">Calculate</button>
+        </form>
+        <aside class="tool-output" id="alcoholOutput"></aside>
+      </div>
+    </section>
+
+
+    <section class="container tools" id="planner">
+      <div class="section-head">
+        <h2>Automated Event Planner Wizard</h2>
+        <p>Plan your event in minutes: build menu, estimate alcohol, and generate a booking-ready summary.</p>
+      </div>
+      <div class="wizard card">
+        <div class="wizard-steps" id="wizardSteps">
+          <span class="is-active">1. Basics</span>
+          <span>2. Bar Style</span>
+          <span>3. Menu Builder</span>
+          <span>4. Add-ons</span>
+          <span>5. Summary</span>
+        </div>
+
+        <div class="wizard-panel" data-step="1">
+          <label>Event Date <input type="date" id="wizDate" /></label>
+          <label>Location <input type="text" id="wizLocation" placeholder="Belleville, MI" /></label>
+          <label>Guest Count <input type="number" id="wizGuests" min="25" value="120" /></label>
+          <label>Event Type
+            <select id="wizType"><option>Wedding</option><option>Corporate</option><option>Private Party</option></select>
+          </label>
+        </div>
+
+        <div class="wizard-panel hidden" data-step="2">
+          <label>Drink Style
+            <select id="wizStyle"><option value="beerWine">Beer & Wine</option><option value="classic">Classic Cocktails</option><option value="signature" selected>Signature Cocktails</option><option value="full">Full Bar</option></select>
+          </label>
+          <label>Package
+            <select id="wizPackage"><option>Basic</option><option selected>Signature</option><option>Premium</option></select>
+          </label>
+          <label>Service Hours <input type="number" id="wizHours" min="3" max="8" value="4" /></label>
+        </div>
+
+        <div class="wizard-panel hidden" data-step="3">
+          <p class="muted">Select cocktail preferences:</p>
+          <div class="chip-grid">
+            <label><input type="checkbox" value="vodka" checked /> Vodka Drinks</label>
+            <label><input type="checkbox" value="tequila" checked /> Tequila Drinks</label>
+            <label><input type="checkbox" value="citrus" checked /> Citrus Drinks</label>
+            <label><input type="checkbox" value="sweet" /> Sweet Drinks</label>
+            <label><input type="checkbox" value="refreshing" checked /> Refreshing Drinks</label>
+            <label><input type="checkbox" value="whiskey" /> Whiskey Forward</label>
+          </div>
+          <button class="btn btn-sm" type="button" id="generateMenu">Generate Menu</button>
+          <div class="tool-output" id="menuOutput"></div>
+        </div>
+
+        <div class="wizard-panel hidden" data-step="4">
+          <label><input type="checkbox" id="addonBar" /> Mobile Bar Setup</label>
+          <label><input type="checkbox" id="addonBoard" /> Custom Drink Menu Board</label>
+          <label><input type="checkbox" id="addonExtraHour" /> Extra Service Hour</label>
+        </div>
+
+        <div class="wizard-panel hidden" data-step="5">
+          <div class="tool-output" id="wizardSummary"></div>
+        </div>
+
+        <div class="wizard-actions">
+          <button class="btn btn-ghost" type="button" id="wizPrev">Back</button>
+          <button class="btn" type="button" id="wizNext">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="gallery">
+      <div class="section-head"><h2>Gallery</h2><p>Placeholder visual blocks ready for real event photography.</p></div>
+      <div class="gallery-grid">
+        <div>Cocktail Closeups</div><div>Bar Setups</div><div>Wedding Service</div><div>Garnish Prep</div>
+      </div>
+    </section>
+
+    <section class="container about" id="about">
+      <h2>About Pour Social</h2>
+      <p>Pour Social is a mobile bartending service focused on elevating events through polished service, handcrafted cocktails, and exceptional hospitality.</p>
+      <p>With over a decade of experience across fine dining, nightlife, and private events, our team creates custom bar experiences for weddings, corporate gatherings, and celebrations of all sizes.</p>
+      <p>Pour Social does not sell alcohol. Clients provide or pre-order alcohol while we provide staffing, tools, mixers, fruit, garnishes, and execution.</p>
+    </section>
+
+    <section class="container" id="book">
+      <div class="section-head"><h2>Book Your Event</h2><p>Starter intake form built from your existing client planning flow.</p></div>
+      <form class="booking-form">
+        <input required placeholder="Full Name" />
+        <input type="email" required placeholder="Email Address" />
+        <input type="date" required />
+        <input type="number" min="10" placeholder="Guest Count" required />
+        <input placeholder="Event Location" required />
+        <select required><option value="">Select Package</option><option>Basic</option><option>Signature</option><option>Premium</option></select>
+        <select required><option value="">Preferred Menu</option><option>Wedding Signature</option><option>Classic Event</option><option>Summer Outdoor</option></select>
+        <textarea rows="4" placeholder="Tell us about your event goals, timeline, and vibe."></textarea>
+        <button class="btn" type="submit">Submit Request</button>
+      </form>
+    </section>
+
+    <section class="container faq" id="faq">
+      <div class="section-head"><h2>FAQ</h2></div>
+      <div class="card">
+        <p><strong>Do you provide mixers and garnishes?</strong><br>Yes. Pour Social provides mixers, juices, syrups, fruit, garnishes, and bar tools.</p>
+        <p><strong>Do you sell alcohol?</strong><br>No. Clients provide or pre-order alcohol, and we provide full bar service.</p>
+        <p><strong>Can you help us plan menu and quantities?</strong><br>Absolutely. Use the pricing and alcohol tools, or ask the AI bartender for a quick planning start.</p>
+      </div>
+    </section>
+  </main>
+
+  <aside class="assistant-dock" id="assistantDock">
+    <button class="assistant-toggle" id="assistantToggle" type="button" aria-expanded="true" aria-controls="assistantPanel">Ask Pour Social</button>
+    <div class="assistant-panel" id="assistantPanel">
+      <p class="assistant-title">AI Bartender Assistant</p>
+      <div id="chatLog" class="chat-log">
+        <p><strong>Assistant:</strong> Hi! Ask about packages, alcohol estimates, mixers, or drink menus.</p>
+      </div>
+      <form id="chatForm" class="chat-form">
+        <input id="chatInput" placeholder="How much alcohol for 100 guests?" required />
+        <button class="btn btn-sm" type="submit">Ask</button>
+      </form>
+    </div>
+  </aside>
+
+  <a href="#book" class="floating-quote" id="quoteButton" data-target="book">Request Quote • 60 sec</a>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Pour Social. Professional mobile bartending service.</p>
+      <p class="legal">Pour Social does not sell alcohol. Clients are responsible for alcohol purchase and venue compliance.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
