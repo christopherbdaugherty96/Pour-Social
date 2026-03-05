@@ -1,0 +1,141 @@
+POUR SOCIAL
+Alcohol Shopping Calculator
+(Client Planning Tool)
+
+Purpose
+
+The Pour Social Alcohol Calculator helps clients estimate how much alcohol they should purchase for their event.
+
+Pour Social provides:
+
+• mixers
+• soda
+• juices
+• fruit and garnishes
+• syrups
+• bar tools and equipment
+
+Clients only need to purchase the alcohol.
+
+---
+
+Information Needed
+
+Guests Attending
+
+Total number of guests at the event.
+
+Example:
+
+50 guests
+100 guests
+150 guests
+
+Event Duration
+
+Typical bar service length.
+
+3 hours
+4 hours
+5 hours
+6 hours
+
+Drink Style
+
+Beer & Wine Only
+Cocktails + Beer/Wine
+Cocktails Focused
+
+---
+
+Average Consumption
+
+The standard estimate used for events is:
+
+1 drink per person per hour
+
+Example:
+
+100 guests
+4 hour service
+
+Estimated drinks served:
+
+350–400 drinks
+
+---
+
+Bottle Conversions
+
+Liquor Bottle (750ml)
+
+Approximately 16 cocktails per bottle.
+
+Wine Bottle
+
+Approximately 5 glasses per bottle.
+
+Beer Case
+
+24 beers per case.
+
+---
+
+Example Calculation
+
+Event
+
+100 guests
+4 hours of service
+
+Estimated drinks:
+
+380 drinks
+
+Alcohol Recommendation
+
+Liquor
+
+Vodka — 6 bottles
+Tequila — 4 bottles
+Whiskey — 3 bottles
+Gin — 2 bottles
+Rum — 2 bottles
+
+Beer
+
+4–5 cases
+
+Wine
+
+18–20 bottles
+
+---
+
+Important Note
+
+Pour Social supplies all mixers, soda, fruit, and cocktail ingredients.
+
+Clients only need to provide the alcohol based on the recommended shopping list.
+
+---
+
+Alcohol Purchase Options
+
+Option 1
+
+Client purchases alcohol and brings it to the event.
+
+Option 2
+
+Client pre-orders alcohol from a retailer.
+
+Pour Social can pick up the order 2–3 days before the event once it has been fully paid for by the client.
+
+Pour Social does not sell or purchase alcohol.
+
+---
+
+Helpful Tip
+
+It is always recommended to purchase slightly more alcohol than the estimate to avoid running out during the event.
