@@ -73,6 +73,15 @@ section { padding: 4rem 0; }
 .tools .tool-grid { grid-template-columns: 1fr 1fr; }
 label, input, select, textarea { display: block; width: 100%; }
 label { margin-bottom: .8rem; color: var(--muted); }
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+}
+.checkbox-label input {
+  width: auto;
+  margin-top: 0;
+}
 input, select, textarea {
   margin-top: .35rem;
   background: #0f0c09;

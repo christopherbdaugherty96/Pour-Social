@@ -111,7 +111,7 @@
     <section class="container tools" id="pricing">
       <div class="section-head">
         <h2>Interactive Event Pricing Dial</h2>
-        <p>Quick estimate for service range, bartender count, and alcohol planning.</p>
+        <p>Built from the current pricing sheet: Basic starts at $450, Signature at $750, and Premium/Wedding at $1,200+.</p>
       </div>
       <div class="tool-grid">
         <form class="tool-panel" id="pricing-form">
@@ -129,6 +129,17 @@
           <label>Service Hours
             <input type="range" id="serviceHours" min="3" max="6" value="4" />
             <span id="hoursValue">4</span>
+          </label>
+          <label>Mobile Bar Setup
+            <select id="mobileBar">
+              <option value="0" selected>No mobile bar setup</option>
+              <option value="200">Standard mobile bar (+$200)</option>
+              <option value="400">Premium mobile bar (+$400)</option>
+            </select>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="travelFee" />
+            Include estimated travel fee (+$75)
           </label>
         </form>
         <aside class="tool-output" id="pricingOutput"></aside>
@@ -173,19 +184,25 @@
       <p>Pour Social is a mobile bartending service focused on elevating events through polished service, handcrafted cocktails, and exceptional hospitality.</p>
       <p>With over a decade of experience across fine dining, nightlife, and private events, our team creates custom bar experiences for weddings, corporate gatherings, and celebrations of all sizes.</p>
       <p>Pour Social does not sell alcohol. Clients provide or pre-order alcohol while we provide staffing, tools, mixers, fruit, garnishes, and execution.</p>
+      <p>Based in Belleville, Michigan, we serve Southeast Michigan including Ann Arbor, Detroit, Canton, Plymouth, Ypsilanti, Novi, and Livonia.</p>
     </section>
 
     <section class="container" id="book">
       <div class="section-head"><h2>Book Your Event</h2><p>Starter intake form built from your existing client planning flow.</p></div>
       <form class="booking-form">
         <input required placeholder="Full Name" />
+        <input required placeholder="Phone Number" />
         <input type="email" required placeholder="Email Address" />
         <input type="date" required />
+        <input type="time" required />
         <input type="number" min="10" placeholder="Guest Count" required />
+        <input type="number" min="10" placeholder="Expected Drinking Guests (21+)" required />
         <input placeholder="Event Location" required />
+        <select required><option value="">Indoor or Outdoor</option><option>Indoor</option><option>Outdoor</option><option>Combination</option></select>
         <select required><option value="">Select Package</option><option>Basic</option><option>Signature</option><option>Premium</option></select>
         <select required><option value="">Preferred Menu</option><option>Wedding Signature</option><option>Classic Event</option><option>Summer Outdoor</option></select>
-        <textarea rows="4" placeholder="Tell us about your event goals, timeline, and vibe."></textarea>
+        <select required><option value="">Alcohol Plan</option><option>Client brings alcohol</option><option>Client pre-orders alcohol (pickup requested)</option></select>
+        <textarea rows="4" placeholder="Tell us about your event goals, timeline, setup window, and venue rules."></textarea>
         <button class="btn" type="submit">Submit Request</button>
       </form>
     </section>
@@ -193,6 +210,7 @@
     <section class="container faq" id="faq">
       <div class="section-head"><h2>FAQ</h2></div>
       <div class="card">
+        <p><strong>What are your starting package prices?</strong><br>Basic starts at $450, Signature starts at $750, and Premium/Wedding starts at $1,200+. Final pricing depends on guest count, staffing, hours, setup, and location.</p>
         <p><strong>Do you provide mixers and garnishes?</strong><br>Yes. Pour Social provides mixers, juices, syrups, fruit, garnishes, and bar tools.</p>
         <p><strong>Do you sell alcohol?</strong><br>No. Clients provide or pre-order alcohol, and we provide full bar service.</p>
         <p><strong>Can you help us plan menu and quantities?</strong><br>Absolutely. Use the pricing and alcohol tools, or ask the AI bartender for a quick planning start.</p>
