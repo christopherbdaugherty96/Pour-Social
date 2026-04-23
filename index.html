@@ -1,1 +1,346 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Pour Social | Event Bar Staffing</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css" /></head><body><header class="topbar"><div class="container nav-wrap"><a href="#home" class="brand">Pour Social</a><nav><a href="#services">Services</a><a href="#menus">Drink Menus</a><a href="#pricing">Pricing Tool</a><a href="#alcohol">Alcohol Calculator</a><a href="#about">About</a><a href="#book">Book</a><a href="#faq">FAQ</a></nav><a class="btn btn-sm" href="#book">Request Quote</a></div></header><main id="home"><section class="hero"><div class="hero-overlay"></div><div class="container hero-content"><p class="eyebrow">Event Bar Staffing • Weddings • Corporate • Private Events</p><h1>Polished Bar Experiences Without Managing It Yourself</h1><p>Pour Social organizes bartending staff, beverage planning, and smooth event execution so hosts can focus on the event.</p><div class="actions"><a href="#book" class="btn">Book Your Event</a><a href="#menus" class="btn btn-ghost">View Drink Menus</a></div></div></section><section class="container features" id="services"><h2>You Host. We Organize the Bar Experience.</h2><div class="card-grid"><article class="card hover-rise"><h3>Professional Event Staffing</h3><p>We coordinate bartenders based on guest count, service style, and event needs.</p></article><article class="card hover-rise"><h3>Custom Beverage Planning</h3><p>Menus, alcohol guidance, mixers, and guest flow planned around your event.</p></article><article class="card hover-rise"><h3>Stress-Free Coordination</h3><p>Clear logistics, polished setup, and organized execution from start to finish.</p></article></div></section><section class="container" id="about"><h2>About Pour Social</h2><p>Pour Social is an event bar staffing & beverage experience company serving weddings, corporate events, and private celebrations.</p><p>We focus on planning, staffing coordination, menus, and quality control so clients get a polished experience without handling the bar themselves.</p><p>Pour Social does not sell alcohol. Clients provide or pre-order alcohol while we coordinate service, mixers, garnishes, tools, and execution.</p><p>Based in Belleville, Michigan, serving Southeast Michigan.</p></section><section class="container" id="book"><div class="section-head"><h2>Book Your Event</h2><p>Tell us about your event and we will build a staffing and beverage plan.</p></div><form class="booking-form"><input required placeholder="Full Name" /><input required placeholder="Phone Number" /><input type="email" required placeholder="Email Address" /><input type="date" required /><input type="time" required /><input type="number" min="10" placeholder="Guest Count" required /><input placeholder="Event Location" required /><textarea rows="4" placeholder="Tell us about your event goals, timeline, setup window, and venue rules."></textarea><button class="btn" type="submit">Submit Request</button></form></section><section class="container faq" id="faq"><div class="card"><p><strong>What do you do?</strong><br>We organize bartending staff, beverage planning, and on-site bar execution for events.</p><p><strong>Do you sell alcohol?</strong><br>No. Clients provide or pre-order alcohol.</p><p><strong>Can you help with planning?</strong><br>Yes. Use the tools or request a custom quote.</p></div></section></main><aside class="assistant-dock" id="assistantDock"><button class="assistant-toggle" id="assistantToggle" type="button" aria-expanded="true" aria-controls="assistantPanel">Ask Pour Social</button><div class="assistant-panel" id="assistantPanel"><p class="assistant-title">Event Planning Assistant</p><div id="chatLog" class="chat-log"><p><strong>Assistant:</strong> Hi! Ask about staffing, packages, alcohol estimates, or menus.</p></div><form id="chatForm" class="chat-form"><input id="chatInput" placeholder="How much alcohol for 100 guests?" required /><button class="btn btn-sm" type="submit">Ask</button></form></div></aside><footer class="footer"><div class="container"><p>© <span id="year"></span> Pour Social.</p><p class="legal">Pour Social does not sell alcohol. Clients are responsible for alcohol purchase and venue compliance.</p></div></footer><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pour Social | Event Bar Staffing & Beverage Planning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">Pour Social</a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#process">How It Works</a>
+        <a href="#menus">Menus</a>
+        <a href="#pricing">Pricing Tool</a>
+        <a href="#alcohol">Alcohol Calculator</a>
+        <a href="#team">Join Our Team</a>
+        <a href="#about">About</a>
+        <a href="#book">Book</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-sm" href="#book">Request Quote</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Event Bar Staffing • Weddings • Corporate • Private Events</p>
+        <h1>We Organize the Bar So You Can Run the Event</h1>
+        <p>Pour Social is an event bar staffing & beverage experience company that coordinates bartenders, beverage planning, and polished service execution for private events across Southeast Michigan.</p>
+        <div class="actions">
+          <a href="#book" class="btn">Book Your Event</a>
+          <a href="#process" class="btn btn-ghost">See How It Works</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container quick-points">
+      <div class="card-grid">
+        <article class="card">
+          <h3>Operator-Led</h3>
+          <p>You work with one company that handles staffing, planning, coordination, and quality control.</p>
+        </article>
+        <article class="card">
+          <h3>Client-Owned Alcohol</h3>
+          <p>Clients provide or pre-order alcohol while Pour Social handles service strategy, mixers, garnishes, and execution.</p>
+        </article>
+        <article class="card">
+          <h3>Built to Scale</h3>
+          <p>Ideal for weddings, private parties, and corporate events that need organized bar coverage rather than one solo bartender.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container features" id="services">
+      <div class="section-head">
+        <h2>What Pour Social Handles</h2>
+        <p>We are not just showing up to pour drinks. We coordinate the full front-end beverage experience.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card hover-rise">
+          <h3>Event Bar Staffing</h3>
+          <p>We match bartender coverage to guest count, event flow, and package level.</p>
+        </article>
+        <article class="card hover-rise">
+          <h3>Menu & Beverage Planning</h3>
+          <p>Signature drinks, beer and wine balance, alcohol quantity guidance, and service recommendations.</p>
+        </article>
+        <article class="card hover-rise">
+          <h3>Mixers & Garnish Coordination</h3>
+          <p>We plan and provide the mixers, juices, syrups, fruit, and bar tool layer that keeps service smooth.</p>
+        </article>
+        <article class="card hover-rise">
+          <h3>Service Standards</h3>
+          <p>Clear expectations for setup, presentation, guest interaction, and overall bar execution.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="process">
+      <div class="section-head">
+        <h2>How It Works</h2>
+        <p>A cleaner process for hosts who want a polished event without managing the bar themselves.</p>
+      </div>
+      <div class="service-columns">
+        <article class="card">
+          <h4>1. Inquiry & Quote</h4>
+          <p>You send the event date, location, guest count, and service goals. We build the initial package and staffing direction.</p>
+        </article>
+        <article class="card">
+          <h4>2. Menu & Alcohol Plan</h4>
+          <p>We help structure cocktail choices, beer and wine balance, and alcohol quantity estimates based on your event style.</p>
+        </article>
+        <article class="card">
+          <h4>3. Staffing & Logistics</h4>
+          <p>Pour Social coordinates bartenders, setup expectations, timing, and service flow for the event.</p>
+        </article>
+        <article class="card">
+          <h4>4. Event Execution</h4>
+          <p>Your guests get a staffed, polished bar experience while you stay focused on hosting the event.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="menus">
+      <div class="section-head">
+        <h2>Sample Beverage Directions</h2>
+        <p>Popular menu directions curated from Pour Social event planning concepts.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card">
+          <h3>Wedding Signature</h3>
+          <ul>
+            <li>Lavender Lemon Drop</li>
+            <li>Peach Bellini Spritz</li>
+            <li>Smoked Old Fashioned</li>
+            <li>Garden Gin Spritz</li>
+            <li>Rosé Sangria</li>
+            <li>French 75</li>
+          </ul>
+        </article>
+        <article class="menu-card">
+          <h3>Classic Event</h3>
+          <ul>
+            <li>Margarita</li>
+            <li>Old Fashioned</li>
+            <li>Moscow Mule</li>
+            <li>Cosmopolitan</li>
+            <li>Whiskey Sour</li>
+            <li>Paloma</li>
+          </ul>
+        </article>
+        <article class="menu-card">
+          <h3>Summer Outdoor</h3>
+          <ul>
+            <li>Batch Margarita</li>
+            <li>Strawberry Basil Smash</li>
+            <li>Watermelon Mule</li>
+            <li>Cucumber Gin Cooler</li>
+            <li>Pineapple Rum Punch</li>
+            <li>Coconut Mojito</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="container tools" id="pricing">
+      <div class="section-head">
+        <h2>Interactive Event Pricing Dial</h2>
+        <p>Use the current package model to get a starting point before requesting a final quote.</p>
+      </div>
+      <div class="tool-grid">
+        <form class="tool-panel" id="pricing-form">
+          <label>Guest Count
+            <input type="range" id="guestCount" min="25" max="200" step="25" value="100" />
+            <span id="guestValue">100</span>
+          </label>
+          <label>Drink Tier
+            <select id="drinkTier">
+              <option value="basic">Basic</option>
+              <option value="signature" selected>Signature</option>
+              <option value="premium">Premium</option>
+            </select>
+          </label>
+          <label>Service Hours
+            <input type="range" id="serviceHours" min="3" max="6" value="4" />
+            <span id="hoursValue">4</span>
+          </label>
+          <label>Mobile Bar Setup
+            <select id="mobileBar">
+              <option value="0" selected>No mobile bar setup</option>
+              <option value="200">Standard mobile bar (+$200)</option>
+              <option value="400">Premium mobile bar (+$400)</option>
+            </select>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="travelFee" />
+            Include estimated travel fee (+$75)
+          </label>
+        </form>
+        <aside class="tool-output" id="pricingOutput"></aside>
+      </div>
+    </section>
+
+    <section class="container tools" id="alcohol">
+      <div class="section-head">
+        <h2>Alcohol Shopping Calculator</h2>
+        <p>Estimate what clients should purchase while Pour Social handles the mixer and service layer.</p>
+      </div>
+      <div class="tool-grid">
+        <form class="tool-panel" id="alcohol-form">
+          <label>Guests
+            <input type="number" id="alcGuests" min="25" step="5" value="100" />
+          </label>
+          <label>Event Hours
+            <input type="number" id="alcHours" min="3" max="8" value="4" />
+          </label>
+          <label>Drink Style
+            <select id="alcStyle">
+              <option value="beerWine">Beer & Wine Only</option>
+              <option value="balanced" selected>Cocktails + Beer/Wine</option>
+              <option value="cocktail">Cocktails Focused</option>
+            </select>
+          </label>
+          <button class="btn" type="submit">Calculate</button>
+        </form>
+        <aside class="tool-output" id="alcoholOutput"></aside>
+      </div>
+    </section>
+
+    <section class="container trust-strip">
+      <div class="card-grid">
+        <article class="card">
+          <h3>Clear Scope</h3>
+          <p>We organize staffing and beverage execution. We do not sell alcohol.</p>
+        </article>
+        <article class="card">
+          <h3>Planning Support</h3>
+          <p>Alcohol quantity estimates, menu direction, and package guidance before the event.</p>
+        </article>
+        <article class="card">
+          <h3>Southeast Michigan Focus</h3>
+          <p>Belleville-based with service aimed at Southeast Michigan weddings, parties, and corporate events.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="team">
+      <div class="section-head">
+        <h2>Join the Pour Social Team</h2>
+        <p>We are building a dependable bartender network for private events, weddings, and corporate functions.</p>
+      </div>
+      <div class="split-grid">
+        <article class="card">
+          <h3>Who We Want</h3>
+          <ul class="clean-list">
+            <li>Professional bartenders with strong hospitality instincts</li>
+            <li>Reliable event staff who communicate clearly</li>
+            <li>People comfortable with polished private-event environments</li>
+            <li>Staff who can follow brand and service standards</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Why Join</h3>
+          <ul class="clean-list">
+            <li>Flexible event-based opportunities</li>
+            <li>Clear coordination and expectations</li>
+            <li>Premium event environment focus</li>
+            <li>Opportunity to grow with an operator-led company</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="container about" id="about">
+      <h2>About Pour Social</h2>
+      <p>Pour Social is an event bar staffing & beverage experience company focused on organized, polished execution rather than one person bartending every event.</p>
+      <p>The company coordinates staffing, beverage planning, service standards, mixers, garnishes, and execution so clients can book one brand instead of piecing the experience together themselves.</p>
+      <p>Clients provide or pre-order alcohol. Pour Social does not sell alcohol and is designed around planning, coordination, staffing, and event quality control.</p>
+      <p>Based in Belleville, Michigan, with service focus across Southeast Michigan including Ann Arbor, Detroit, Canton, Plymouth, Ypsilanti, Novi, and Livonia.</p>
+    </section>
+
+    <section class="container" id="book">
+      <div class="section-head">
+        <h2>Book Your Event</h2>
+        <p>Tell us about your event and we will build a staffing and beverage plan around your guest count, timeline, and service style.</p>
+      </div>
+      <form class="booking-form" id="bookingForm">
+        <input required placeholder="Full Name" />
+        <input required placeholder="Phone Number" />
+        <input type="email" required placeholder="Email Address" />
+        <input type="date" required />
+        <input type="time" required />
+        <input type="number" min="10" placeholder="Guest Count" required />
+        <input type="number" min="10" placeholder="Expected Drinking Guests (21+)" required />
+        <input placeholder="Event Location" required />
+        <select required>
+          <option value="">Event Type</option>
+          <option>Wedding</option>
+          <option>Corporate</option>
+          <option>Private Party</option>
+          <option>Other</option>
+        </select>
+        <select required>
+          <option value="">Select Package</option>
+          <option>Basic</option>
+          <option>Signature</option>
+          <option>Premium</option>
+        </select>
+        <select required>
+          <option value="">Alcohol Plan</option>
+          <option>Client provides alcohol</option>
+          <option>Client pre-orders alcohol for pickup</option>
+        </select>
+        <textarea rows="4" placeholder="Tell us about your event goals, timeline, setup window, venue rules, and preferred beverage direction."></textarea>
+        <button class="btn" type="submit">Submit Request</button>
+        <p class="form-note" id="bookingNote">This is currently a lead-form prototype. Final submission routing can be connected to email, CRM, or calendar workflows later.</p>
+      </form>
+    </section>
+
+    <section class="container faq" id="faq">
+      <div class="section-head">
+        <h2>FAQ</h2>
+      </div>
+      <div class="card">
+        <p><strong>What exactly does Pour Social do?</strong><br>We organize bartending staff, beverage planning, and on-site execution for private events and hosted functions.</p>
+        <p><strong>Do you personally bartend every event?</strong><br>Pour Social is designed as an operator-led company. Events can be staffed based on guest count, package needs, and availability.</p>
+        <p><strong>Do you sell alcohol?</strong><br>No. Clients provide or pre-order alcohol while Pour Social handles the service-planning layer.</p>
+        <p><strong>Can you help us estimate what to buy?</strong><br>Yes. Use the alcohol calculator for a starting point, then request a quote for a more tailored plan.</p>
+      </div>
+    </section>
+  </main>
+
+  <aside class="assistant-dock" id="assistantDock">
+    <button class="assistant-toggle" id="assistantToggle" type="button" aria-expanded="true" aria-controls="assistantPanel">Ask Pour Social</button>
+    <div class="assistant-panel" id="assistantPanel">
+      <p class="assistant-title">Event Planning Assistant</p>
+      <div id="chatLog" class="chat-log">
+        <p><strong>Assistant:</strong> Hi! Ask about staffing, packages, alcohol estimates, or menus.</p>
+      </div>
+      <form id="chatForm" class="chat-form">
+        <input id="chatInput" placeholder="How much alcohol for 100 guests?" required />
+        <button class="btn btn-sm" type="submit">Ask</button>
+      </form>
+    </div>
+  </aside>
+
+  <a href="#book" class="floating-quote">Request Quote</a>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Pour Social. Event bar staffing & beverage planning.</p>
+      <p class="legal">Pour Social does not sell alcohol. Clients are responsible for alcohol purchase and venue compliance.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
