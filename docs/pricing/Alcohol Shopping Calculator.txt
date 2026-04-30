@@ -1,6 +1,6 @@
 POUR SOCIAL
 Alcohol Shopping Calculator
-(Client Planning Tool)
+Client Planning Tool
 
 Purpose
 
@@ -8,60 +8,65 @@ The Pour Social Alcohol Calculator helps clients estimate how much alcohol they 
 
 Pour Social provides:
 
+• staffing guidance
 • mixers
 • soda
 • juices
 • fruit and garnishes
 • syrups
 • bar tools and equipment
+• event bar setup and service coordination
 
-Clients only need to purchase the alcohol.
+Clients purchase or pre-order alcohol. Pour Social does not sell alcohol.
 
 ---
 
-Information Needed
+Canonical Planning Assumptions
 
-Guests Attending
+This guide follows the canonical assumptions in:
 
-Total number of guests at the event.
+docs/automation/ALCOHOL_PLANNING_ASSUMPTIONS.md
+
+Core assumptions:
+
+• 0.95 drinks per drinking guest per service hour
+• 14 cocktails per 750ml liquor bottle
+• 5 glasses per wine bottle
+• 24 beers per case
+• 1–1.5 lb of ice per guest
+
+Formula:
+
+Estimated drinks = drinking guests × service hours × 0.95
 
 Example:
 
-50 guests
-100 guests
-150 guests
+100 drinking guests
+4 hours of service
 
-Event Duration
+100 × 4 × 0.95 = 380 estimated drinks
 
-Typical bar service length.
+---
 
-3 hours
-4 hours
-5 hours
-6 hours
-
-Drink Style
+Drink Style Splits
 
 Beer & Wine Only
-Cocktails + Beer/Wine
-Cocktails Focused
 
----
+• Beer: 55%
+• Wine: 45%
+• Cocktails: 0%
 
-Average Consumption
+Balanced Event
 
-The standard estimate used for events is:
+• Beer: 40%
+• Wine: 30%
+• Cocktails: 30%
 
-1 drink per person per hour
+Cocktail-Focused Event
 
-Example:
-
-100 guests
-4 hour service
-
-Estimated drinks served:
-
-350–400 drinks
+• Beer: 20%
+• Wine: 20%
+• Cocktails: 60%
 
 ---
 
@@ -69,73 +74,64 @@ Bottle Conversions
 
 Liquor Bottle (750ml)
 
-Approximately 16 cocktails per bottle.
+Planning yield: 14 cocktails per bottle.
+
+This is a safe planning yield that accounts for overpours, spillage, recipe variance, batching loss, and event-speed inconsistency.
 
 Wine Bottle
 
-Approximately 5 glasses per bottle.
+Planning yield: 5 glasses per bottle.
 
 Beer Case
 
-24 beers per case.
+Planning yield: 24 beers per case.
 
 ---
 
 Example Calculation
 
-Event
+Event:
 
-100 guests
+100 drinking guests
 4 hours of service
+Balanced drink style
 
 Estimated drinks:
 
 380 drinks
 
-Alcohol Recommendation
+Balanced split:
 
-Liquor
-
-Vodka — 6 bottles
-Tequila — 4 bottles
-Whiskey — 3 bottles
-Gin — 2 bottles
-Rum — 2 bottles
-
-Beer
-
-4–5 cases
-
-Wine
-
-18–20 bottles
+• Beer: 152 drinks → 7 cases
+• Wine: 114 glasses → 23 bottles
+• Cocktails: 114 cocktails → 9 liquor bottles
 
 ---
 
-Important Note
+Important Client Note
 
-Pour Social supplies all mixers, soda, fruit, and cocktail ingredients.
+This is a planning estimate only. Clients provide alcohol and remain responsible for final purchase quantities.
 
-Clients only need to provide the alcohol based on the recommended shopping list.
+Pour Social helps estimate quantities based on guest count, service time, and menu style, but actual consumption may vary.
 
 ---
 
 Alcohol Purchase Options
 
-Option 1
+Option 1 — Client Supplies Alcohol
 
-Client purchases alcohol and brings it to the event.
+Client purchases and brings all alcohol to the event.
 
-Option 2
+Option 2 — Client Pre-Orders Alcohol
 
-Client pre-orders alcohol from a retailer.
+Client may pre-order alcohol from a retailer.
 
-Pour Social can pick up the order 2–3 days before the event once it has been fully paid for by the client.
+Pour Social may pick up the order 1–3 days before the event only if the order has been fully paid for by the client.
 
-Pour Social does not sell or purchase alcohol.
+Pour Social only transports alcohol and does not purchase or sell alcohol.
 
 ---
 
 Helpful Tip
 
-It is always recommended to purchase slightly more alcohol than the estimate to avoid running out during the event.
+It is usually safer to purchase slightly above the estimate than to run out during service, especially for weddings, outdoor events, and long receptions.
