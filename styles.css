@@ -5,6 +5,8 @@
   --muted: #cabca7;
   --accent: #c89a3d;
   --accent-soft: #f1d7a3;
+  --success: #9fd18b;
+  --error: #f1a39a;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -98,6 +100,13 @@ input, select, textarea {
   background: linear-gradient(160deg, #1e1610, #100c08);
 }
 .booking-form { display: grid; gap: .8rem; max-width: 720px; }
+.form-note {
+  margin: .25rem 0 0;
+  color: #a8977c;
+  font-size: .9rem;
+}
+.form-success { color: var(--success); }
+.form-error { color: var(--error); }
 .chat-log {
   min-height: 180px;
   max-height: 280px;
