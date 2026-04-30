@@ -3,118 +3,163 @@ Alcohol Shopping List Guide
 
 Purpose
 
-This guide helps clients determine how much alcohol to purchase for their event based on guest count, event duration, and drink menu selection.
+This guide helps clients estimate how much alcohol to purchase for an event based on drinking guest count, service duration, and drink menu style.
 
 Pour Social does not sell alcohol. Clients purchase alcohol themselves or pre-order it from a retailer.
 
+This guide follows the canonical assumptions in:
+
+docs/automation/ALCOHOL_PLANNING_ASSUMPTIONS.md
+
+---
+
 General Rule
 
-Most guests consume:
-
-1 drink per hour.
+Planning drinks = drinking guests × service hours × 0.95
 
 Example:
 
+100 drinking guests
 4 hour event
-100 guests
 
-Average drinks served: 350–400 drinks.
-
-Drink Type Breakdown (Typical Event)
-
-Beer: 40%
-Wine: 30%
-Cocktails: 30%
-
-If the event focuses heavily on cocktails, the cocktail percentage may increase.
-
-Alcohol Quantity Guide
-
-50 Guests (4 hours)
-
-Liquor
-Vodka — 3 bottles
-Tequila — 2 bottles
-Whiskey — 2 bottles
-Gin — 1 bottle
-
-Wine
-8–10 bottles
-
-Beer
-2–3 cases
+100 × 4 × 0.95 = 380 estimated drinks
 
 ---
 
-100 Guests (4 hours)
+Bottle and Case Conversions
 
-Liquor
-Vodka — 6 bottles
-Tequila — 4 bottles
-Whiskey — 3 bottles
-Gin — 2 bottles
-
-Wine
-16–20 bottles
-
-Beer
-4–5 cases
+• 750ml liquor bottle = 14 cocktails for planning
+• Wine bottle = 5 glasses
+• Beer case = 24 beers
+• Ice = 1–1.5 lb per guest
 
 ---
 
-150 Guests (4 hours)
+Drink Type Breakdown
 
-Liquor
-Vodka — 9 bottles
-Tequila — 6 bottles
-Whiskey — 5 bottles
-Gin — 3 bottles
+Balanced Event
 
-Wine
-24–30 bottles
+• Beer: 40%
+• Wine: 30%
+• Cocktails: 30%
 
-Beer
-7–8 cases
+Beer & Wine Only
+
+• Beer: 55%
+• Wine: 45%
+• Cocktails: 0%
+
+Cocktail-Focused Event
+
+• Beer: 20%
+• Wine: 20%
+• Cocktails: 60%
+
+---
+
+Balanced Event Quantity Guide
+
+50 Drinking Guests (4 hours)
+
+Estimated drinks:
+
+50 × 4 × 0.95 = 190 drinks
+
+Recommended alcohol:
+
+• Beer: 76 drinks → 4 cases
+• Wine: 57 glasses → 12 bottles
+• Cocktails: 57 cocktails → 5 liquor bottles
+
+---
+
+100 Drinking Guests (4 hours)
+
+Estimated drinks:
+
+100 × 4 × 0.95 = 380 drinks
+
+Recommended alcohol:
+
+• Beer: 152 drinks → 7 cases
+• Wine: 114 glasses → 23 bottles
+• Cocktails: 114 cocktails → 9 liquor bottles
+
+---
+
+150 Drinking Guests (4 hours)
+
+Estimated drinks:
+
+150 × 4 × 0.95 = 570 drinks
+
+Recommended alcohol:
+
+• Beer: 228 drinks → 10 cases
+• Wine: 171 glasses → 35 bottles
+• Cocktails: 171 cocktails → 13 liquor bottles
 
 ---
 
 Mixer Quantities
 
-For most events the following mixers are recommended:
+Mixer needs depend on the final drink menu. For most balanced events, start with:
 
-Club soda — 12–18 cans
-Tonic water — 12 cans
-Ginger beer — 12–18 bottles
-Cranberry juice — 2–3 large bottles
-Pineapple juice — 2 large bottles
-Orange juice — 2 large bottles
-Lime juice — 1 large bottle
+For 100 drinking guests:
+
+• Club soda — 36–48 cans
+• Tonic water — 18–24 cans
+• Ginger beer — 12–24 bottles
+• Cranberry juice — 2–3 large bottles
+• Pineapple juice — 1–2 large bottles
+• Orange juice — 1–2 large bottles
+• Lime juice — 1 large bottle
+• Simple syrup — 1 bottle
+
+---
 
 Garnishes
 
-Limes — 25–40
-Lemons — 15–25
-Mint — 3–4 bunches
-Orange slices — 6–8 oranges
+For 100 drinking guests:
+
+• Limes — 30–40
+• Lemons — 15–25
+• Oranges — 6–10
+• Mint — 2–4 bunches
+• Cherries or olives — optional, menu-dependent
+
+---
 
 Ice
 
 Plan for approximately:
 
-1–1.5 pounds of ice per guest.
+1–1.5 lb of ice per guest.
 
 Example:
 
-100 guests → 100–150 pounds ice.
+100 guests → 100–150 lb ice
+
+---
 
 Event Planning Tip
 
-Limiting cocktail menus to 6–8 drinks improves service speed and reduces alcohol costs.
+Limiting cocktail menus to 2–3 signature drinks plus beer, wine, and simple highballs improves service speed and reduces waste.
 
-Pour Social can help adjust alcohol quantities based on your final drink menu.
+Pour Social can adjust alcohol quantities based on the final drink menu.
+
+---
 
 Alcohol Pickup Option
 
-Clients may also pre-order alcohol from a retailer and request Pour Social pickup up to 1–3 days before the event.
+Clients may pre-order alcohol from a retailer and request Pour Social pickup 1–3 days before the event.
 
-Orders must be fully paid before pickup.
+Orders must be fully paid by the client before pickup.
+
+Pour Social only transports alcohol and does not purchase or sell alcohol.
+
+---
+
+Client Disclaimer
+
+This is a planning estimate only. Clients provide alcohol and remain responsible for final purchase quantities. Actual consumption may vary by guest behavior, event length, menu style, weather, and venue rules.
